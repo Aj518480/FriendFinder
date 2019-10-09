@@ -12,6 +12,14 @@ module.exports = function(app){
 
 
     app.post("/api/friends", function(req,res){
+        var newFriend = req.body;
+
+        console.log(newCharacter);
+      
+        characters.push(newCharacter);
+      
+        res.json(newCharacter);
+
 // will send to the front end
 //compare to your other firends
 //2 for loops
