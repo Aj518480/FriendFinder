@@ -1,12 +1,13 @@
 var friends = require("../data/friends");
 
 module.exports = function(app){
+// API GET Requests
+// Below code handles when users "visit" a page.
 
-
-
+//Will show the array of friends inputted
     app.get("/api/friends", function(req,res){
         res.json(friends)
-// like star wars it will show the strings of characters
+
     })
 
 
