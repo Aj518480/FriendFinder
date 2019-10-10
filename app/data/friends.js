@@ -19,9 +19,9 @@ var friends= [
     "name":"Ryan Gosling",
     "photo":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NTU2MzE1OTk1Mjc2ODEx/ryan-gosling-212045-1-402.jpg",
     "scores":[
-        5,
         1,
-        4,
+        2,
+        3,
         4,
         5,
         1,
@@ -36,14 +36,14 @@ var friends= [
     "photo":"https://media.gq.com/photos/58249cdda9546c3d5193215a/master/pass/1216-GQ-FERR02-01-Ryan-Reynolds-Deadpool-04.jpg",
     "scores":[
         5,
-        1,
         4,
+        3,
         4,
         5,
-        1,
+        5,
         2,
         5,
-        4,
+        2,
         1
       ]
   },

@@ -32,7 +32,8 @@ for (let i = 0; i < friends.length; i++) {
     var currentFriendScore = currentFriend.scores[j]
     var newFriendScore = newFriend.scores[j];
 
-    totalDifference += Math.abs(parseInt(currentFriendScore) - parseInt(newFriendScore))
+    totalDifference +=  (Math.abs(parseInt(currentFriendScore[i]) - parseInt(newFriendScore[j])));
+    
 
        
    } 
